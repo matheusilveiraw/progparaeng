@@ -1,6 +1,8 @@
 #4) Desenvolva um programa que solicite uma frase ao usuário e escreva a frase
 #invertida. Dica [::-1]
 
+#questionar o professor sobre esse exercicio
+
 valorInserido = input('Digite uma palavra ou frase: ')
 novaString = ''
 
