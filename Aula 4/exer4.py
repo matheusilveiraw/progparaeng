@@ -1,7 +1,12 @@
-#5) Crie um programa que leia o nome completo de uma pessoa todo em
-#minúsculo e exiba este nome com as primeiras letras em maiúsculo. Dica: use
-#.title()
+#4) Desenvolva um programa que solicite uma frase ao usuário e escreva a frase
+#invertida. Dica [::-1]
 
-nomeCompleto = input('Digite seu nome todo em minúsculo: ')
+#questionar o professor sobre esse exercicio
 
-print(nomeCompleto.title())
+valorInserido = input('Digite uma palavra ou frase: ')
+novaString = ''
+
+for i in range(len(valorInserido) - 1, 0, -1):
+    novaString += valorInserido[i]
+
+print(novaString)
